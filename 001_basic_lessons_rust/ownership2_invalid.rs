@@ -1,4 +1,4 @@
-fn main(){
+fn main() {
     let lang = String::from("rust");
     let rust1 = add_version(lang);
     println!("{:?}", rust1);
@@ -13,4 +13,3 @@ fn add_version(s: String) -> String {
 fn add_lang(s: String) -> String {
     s + " " + "lang."
 }
-
